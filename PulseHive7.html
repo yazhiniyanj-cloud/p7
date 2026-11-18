@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pulse Hive - Heart &amp; Wellness</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 10px;
+            background: #fff8e6;
+            color: #4a3410;
+        }
+
+        .header, .footer {
+            background: #d9480f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .nav {
+            background: #ffe19a;
+            padding: 15px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .nav a {
+            color: #b3380f;
+            margin: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .nav a:hover {
+            color: #4a3410;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            gap: 15px;
+            margin: 15px 0;
+        }
+
+        .content {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .content h2 {
+            color: #b3380f;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+        }
+
+        .gallery div {
+            overflow: hidden;
+            border-radius: 8px;
+            background: #fff8e6;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.5s;
+        }
+
+        /* Picture Transition */
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        .gallery p {
+            text-align: center;
+            padding: 8px;
+            font-weight: bold;
+            color: #b3380f;
+        }
+
+        .sidebar {
+            background: #ffe19a;
+            padding: 15px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .sidebar h2 {
+            color: #b3380f;
+        }
+
+        .sidebar p {
+            line-height: 1.5;
+        }
+
+        .footer {
+            margin-top: 15px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .nav a {
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>🐝 PULSE HIVE</h1>
+        <h3>Heart Health, Wearables &amp; Community Wellness</h3>
+    </div>
+
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div class="container">
+
+        <div class="content">
+
+            <h2 id="about">About Pulse Hive</h2>
+
+            <p>
+                Pulse Hive is a wellness community built around the
+                rhythm of your heart. It brings together pulse tracking,
+                wearable technology and group motivation to help people
+                understand their health and stay active.
+            </p>
+
+            <hr>
+
+            <h2 id="gallery">Pulse Hive Image Gallery</h2>
+
+            <div class="gallery">
+
+                <div>
+                    <img src="Sleep & Recovery.jpg"
+                         alt="Heart Rate Monitor">
+                    <p>Heart Rate Monitoring</p>
+                </div>
+
+                <div>
+                    <img src="Group Workouts.png"
+                         alt="Smartwatch Tracking">
+                    <p>Wearable Tech</p>
+                </div>
+
+                <div>
+                    <img src="Wearable Tech.jpg"
+                         alt="Group Workout">
+                    <p>Group Workouts</p>
+                </div>
+
+                <div>
+                    <img src="heart.webp"
+                         alt="Sleep and Recovery">
+                    <p>Sleep &amp; Recovery</p>
+                </div>
+
+                <div>
+                    <img src="Mindfulness.jpg"
+                         alt="Mindfulness and Stress Relief">
+                    <p>Mindfulness</p>
+                </div>
+
+                <div>
+                    <img src="Community Challenges.png"
+                         alt="Community Challenge">
+                    <p>Community Challenges</p>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <h2>Major Pulse Hive Features</h2>
+
+            <p>
+                Pulse Hive turns everyday heart data into simple,
+                useful insights that help members improve their
+                fitness and wellbeing.
+            </p>
+
+            <p>
+                1. Heart Rate Monitoring<br>
+                2. Wearable Device Sync<br>
+                3. Group Fitness Challenges<br>
+                4. Sleep &amp; Recovery Tracking<br>
+                5. Stress &amp; Mindfulness Tools<br>
+                6. Personalized Health Insights
+            </p>
+
+            <h2>The Future of Pulse Hive</h2>
+
+            <p>
+                Pulse Hive aims to make heart health easy to follow and
+                fun to share. Future updates will bring smarter alerts,
+                deeper trend analysis and an even stronger community.
+            </p>
+
+        </div>
+
+        <div class="sidebar">
+
+            <h2>💓 Did You Know?</h2>
+
+            <p>
+                A healthy adult's resting heart rate is typically
+                between 60 and 100 beats per minute.
+            </p>
+
+            <hr>
+
+            <h2>🐝 Key Areas</h2>
+
+            <p>
+                Pulse Tracking
+            </p>
+
+            <p>
+                Wearable Insights
+            </p>
+
+            <p>
+                Fitness Challenges
+            </p>
+
+            <p>
+                Community Wellness
+            </p>
+
+            <hr>
+
+            <h2>🌼 Our Goal</h2>
+
+            <p>
+                Using data and community
+                to build healthier hearts.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="footer" id="contact">
+        <h2>🐝 PULSE HIVE</h2>
+        <p>Beat | Buzz | Connect | Thrive</p>
+        <p>© 2026 Pulse Hive</p>
+    </div>
+
+</body>
+</html>
